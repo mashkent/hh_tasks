@@ -1,0 +1,29 @@
+Task 1:
+
+For the solution of this task was used module statistics
+If it is required not to use it it is possible to rewrite the program
+
+Input data: from keyboard
+
+Task 2:
+
+Input data: from keyboard
+
+Here fraction of two input numbers is translated into
+numerical system with given base. Then if it is possible 
+(in case of periodical decimal fraction) the output 
+result is simplified according to the task. 
+
+There is no limitation on sign of input numbers and its type 
+(by default it is supposed to be float or integer,
+however it would be better to check the input format)
+
+Since the conversion of float part can be infinite,
+there is a precision in order to stop computation (here I use 8 digits after comma)
+
+Also it was taken into consideration the representation of 
+numbers in numerical systems with bases > than 10, when
+there is a necessity to use letters (A, B, ...)
+It is easy to see that in this program there is a limit on base (36)
+However, it can be increased by addition of new symbols
+(for example, we can get them from unicode table)
